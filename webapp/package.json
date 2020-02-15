@@ -1,5 +1,5 @@
 {
-  "name": "Comic Sans It!",
+  "name": "comic-sans-plugin",
   "version": "0.0.1",
   "description": "A plugin to make your interface look funnier with Comic Sans.",
   "main": "src/index.jsx",
