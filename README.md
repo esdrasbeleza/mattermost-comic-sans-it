@@ -2,6 +2,10 @@
 
 A plugin for Mattermost to use Comic Sans in its UI, based on the [plugin  starter template](https://github.com/mattermost/mattermost-plugin-starter-template).
 
+![comicsans](https://user-images.githubusercontent.com/205742/74592746-6a3e5e00-501c-11ea-9af9-64604b067d40.gif)
+
+## Instructions
+
 Build  plugin:
 ```
 make
