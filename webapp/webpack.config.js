@@ -2,7 +2,7 @@ var path = require('path');
 
 module.exports = {
     entry: [
-        './src/index.js',
+        './src/index.jsx',
     ],
     resolve: {
         modules: [
@@ -24,6 +24,10 @@ module.exports = {
                         // Babel configuration is in babel.config.js because jest requires it to be there.
                     },
                 },
+            },
+            {
+                test: /\.css$/i,
+                use: ['style-loader', 'css-loader'],
             },
         ],
     },

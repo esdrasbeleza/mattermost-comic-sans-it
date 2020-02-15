@@ -1,8 +1,8 @@
 {
-  "name": "plugin-starter",
+  "name": "Comic Sans It!",
   "version": "0.0.1",
-  "description": "This plugin serves as a starting point for writing a Mattermost plugin.",
-  "main": "src/index.js",
+  "description": "A plugin to make your interface look funnier with Comic Sans.",
+  "main": "src/index.jsx",
   "scripts": {
     "build": "webpack --mode=production",
     "debug": "webpack --mode=none",
@@ -39,6 +39,7 @@
     "babel-jest": "24.9.0",
     "babel-loader": "8.0.6",
     "babel-plugin-typescript-to-proptypes": "0.17.1",
+    "css-loader": "^3.4.2",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
     "enzyme-to-json": "3.4.3",
@@ -52,6 +53,7 @@
     "jest-canvas-mock": "2.2.0",
     "jest-junit": "10.0.0",
     "mattermost-webapp": "github:mattermost/mattermost-webapp#23f5f93d9f12a7e2b5623e5cee6814366abd9a0f",
+    "style-loader": "^1.1.3",
     "webpack": "4.35.0",
     "webpack-cli": "3.3.5"
   },
