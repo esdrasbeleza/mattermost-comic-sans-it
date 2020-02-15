@@ -2,8 +2,8 @@
 
 const manifest = JSON.parse(`
 {
-    "id": "com.esdrasbeleza.plugin",
-    "name": "comic-sans-plugin",
+    "id": "com.esdrasbeleza.mattermost-comic-sans-plugin",
+    "name": "Comic Sans It!",
     "description": "A plugin to make your interface look funnier with Comic Sans.",
     "version": "0.1.0",
     "min_server_version": "5.12.0",
